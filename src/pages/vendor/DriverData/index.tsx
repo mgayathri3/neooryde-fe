@@ -75,7 +75,7 @@ const DriverData = () => {
  
   const [loading, setLoading] = useState(false); 
   const [error, setError] = useState<string | null>(null); 
-
+  // Function to handle navigation to driver details page
 
 const handleDriverIdClick = async (driverId: string) => {
   const cabOperatorId = user?.employerId;
